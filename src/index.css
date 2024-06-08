@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  min-height: 100vh;
+    background: #910A67;
+}
+.singleUser{
+  box-shadow: 10px 10px 5px 0px rgba(34, 28, 36, 0.75);
+}
+.singleUser:hover{
+  box-shadow: 0 8px 32px 0 rgba(43, 3, 163, 0.37);
+  transform: scale(0.9);
+}
